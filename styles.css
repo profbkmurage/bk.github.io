@@ -1,0 +1,95 @@
+html{
+	box-sizing:border-box;
+}
+*,*:before , *:after{
+	box-sizing: inherit;
+}
+body{
+	padding:0 0 0 300px;
+	margin:0;
+	background-image: url(./Capture.PNG);
+
+}
+
+h1{
+	font-family:cosolas;
+	font-style: italic;
+	text-align: center;
+}
+
+.wrapper{
+	width:500px;
+	border:3px rgba(117, 5, 33, 0.733) solid;
+	
+	background-color: black;
+	color:white;
+
+}
+
+.screen{
+	text-align:right;
+	font-family:helvetica;
+	padding:20px 5px;
+	font-size:40px;
+	border-bottom:blue 3px solid;
+}
+
+
+.calc-button-row{
+display:flex;
+flex-flow:row nowrap;
+justify-content:space-between;
+margin-bottom:0.5%;
+}
+
+.calc-button{
+	background-color:grey;
+	color:black;
+	font-size: 40px;
+	border:none;
+	height:100px;
+	flex-basis:24.5%;
+
+}
+
+.calc-button:hover{
+	background-color:#ebebeb;
+}
+
+.calc-button:active{
+	background-color:#bbcb;
+}
+
+.double{
+	flex-basis:49.7%;
+}
+
+.tripple{
+	flex-basis:74.8%;
+}
+
+.calc-button:last-child{
+	background-color:#df974c;
+	color:white;
+}
+
+.calc-button:last-child:hover,.calc-button:last-child:active{
+	background-color:green;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: transparent;
+    
+}
+
+.bk{
+	font-family:helvetica;
+	font-style:italic;
+	background-color: red;
+	border-top: blue 3px solid;
+	border-bottom: red 3px solid;
+	border-radius: 10px;
+
+}
